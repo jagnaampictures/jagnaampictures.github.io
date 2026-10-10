@@ -1,128 +1,132 @@
-JAGNAAM PICTURES
 
-Independent Film Production Studio · Karnataka, India
+# JAGNAAM PICTURES
 
-What stays after the camera stops.
+### Independent Film Production Studio · Karnataka, India
 
----
-
-Cinema Begins Where Observation Becomes a Story.
-
-Jagnaam Pictures is an independent film production studio rooted in Karnataka, built around stories shaped by people, places, memory, and the complexities of being human.
-
-We believe cinema is more than what appears on screen. It is also what remains beneath a conversation, within a silence, or long after a story has reached its end.
-
-Our work is guided by observation, intention, and a commitment to finding the right form for every story.
-
-Rooted in Karnataka. Rooted stories, told with restraint.
+**_What stays after the camera stops._**
 
 ---
 
-Our Philosophy
+## About Jagnaam Pictures
 
-We believe every story has its own language. Our responsibility is to discover it, not force it into a formula.
+**Every story begins with observation. What matters is how we choose to tell it.**
 
-- Story before spectacle — every creative decision begins with the story.
-- People beyond circumstances — characters are more than their situations; they carry contradictions, memories, and lives beyond the frame.
-- Silence is part of the language — not everything meaningful needs to be explained.
-- Form follows feeling — image, sound, performance, rhythm, and silence must serve the emotional truth of a story.
-- Stories worth returning to — we value films that reveal something more with time, reflection, and another viewing.
+Jagnaam Pictures is an independent film production studio rooted in **Karnataka, India**. We develop our creative work around people, places, memory, and the details of life that often go unnoticed.
 
-We are interested in cinema that observes closely, feels honestly, and leaves room for the audience to think and feel for themselves.
+We believe a film's identity is shaped not only by what it reveals, but also by what it leaves unspoken. The choices behind a frame, a performance, a cut, or a moment of silence can carry meaning beyond the scene itself.
 
----
+Our approach is guided by **clarity of thought, intention in craft, and respect for the story.**
 
-The Studio
-
-Jagnaam Pictures is an independent creative practice focused on the development and making of films.
-
-Our approach values precision over excess, intention over ornament, and emotional truth over easy answers. Each project begins with its own needs, allowing the story to determine its voice, visual language, rhythm, and form.
-
-Rooted in Karnataka, we remain attentive to the landscapes, languages, cultures, and lived experiences that shape the stories around us.
-
-The aim is not simply to tell a story, but to find the way it needs to be told.
+**Rooted in Karnataka. Rooted stories, told with restraint.**
 
 ---
 
-Founder & Creative Practice
+## Our Creative Philosophy
 
-Manju S Padmanabh
+We do not believe every story needs the same approach. Each deserves the freedom to find its own voice, rhythm, and form.
 
-Writer · Director · Producer · Editor · Colorist
+- **Story before spectacle** — creative choices must serve the story.
+- **Characters with lives beyond the frame** — people are never defined by a single circumstance.
+- **Meaning beyond dialogue** — gestures, spaces, silence, and what remains unsaid can be as important as words.
+- **Form with intention** — writing, direction, editing, and colour work together to shape the audience's experience.
+- **Depth beyond the first viewing** — we value stories that invite reflection and reward a return.
 
-Jagnaam Pictures reflects an ongoing creative practice shaped by writing, filmmaking, and the exploration of cinema as both a narrative and visual medium.
-
-From the first idea to the final image, the work is approached as a connected process in which every stage contributes to the story's identity.
-
-What stays after the camera stops.
-
----
-
-Beyond Filmmaking — Kathana
-
-Kathana · ಕಥನ
-Where Stories Find Their Form.
-
-Kathana is a screenwriting application developed by Manju S Padmanabh under the Jagnaam Pictures creative umbrella.
-
-Built with writers in mind, Kathana is a separate software project dedicated to helping stories find their structure and form. Its development reflects the same broader interest in storytelling that informs the studio's filmmaking practice.
-
-Explore Kathana:
-https://jagnaampictures.github.io/kathana-website/
-
-Kathana has its own identity, website, documentation, and release resources. Its inclusion here recognises its connection to the wider creative practice of Jagnaam Pictures without making it a substitute for the studio's filmmaking work.
+The aim is to make films with a clear point of view, an honest emotional centre, and a lasting sense of purpose.
 
 ---
 
-Official Website
+## The Studio
 
-Jagnaam Pictures
+Jagnaam Pictures brings together the creative processes involved in developing and making films, from the first written idea to the finished image.
+
+Our practice values **precision over excess, intention over ornament, and substance over easy answers.** Every project is approached on its own terms, allowing its story to guide its creative decisions.
+
+Our roots in Karnataka inform our attention to **landscape, language, culture, and lived experience** without limiting the stories we can tell.
+
+We seek the right way to tell each story, rather than a formula to repeat.
+
+---
+
+## Founder & Creative Practice
+
+**Manju S Padmanabh**
+
+*Writer · Director · Producer · Editor · Colorist*
+
+Jagnaam Pictures grows from an ongoing creative practice in writing and filmmaking. These disciplines are connected parts of the same process: discovering a story, shaping its expression, and carrying it through to the final frame.
+
+The line **_“What stays after the camera stops.”_** is my personal creative signature. It also reflects the spirit of Jagnaam Pictures: an interest in what a story leaves with us after the viewing ends.
+
+---
+
+## Official Website
+
+**Visit Jagnaam Pictures**
+
 https://jagnaampictures.github.io/
 
-This repository contains the source files for the official Jagnaam Pictures website.
+The official website presents the studio's identity and creative direction. It will continue to evolve alongside the studio and its work.
 
-Built With
+---
+
+## Beyond Filmmaking — Kathana
+
+### Kathana · ಕಥನ
+
+**Where Stories Find Their Form.**
+
+Kathana is a screenwriting application developed by Manju S Padmanabh and presented as part of the wider creative practice associated with Jagnaam Pictures.
+
+Created with writers in mind, Kathana is a distinct software project focused on helping stories find their structure and form. Its purpose complements the studio's interest in storytelling while maintaining its own product identity.
+
+**Explore Kathana**
+
+https://jagnaampictures.github.io/kathana-website/
+
+Kathana has its own website, documentation, and release resources. It is presented here as a related creative initiative, separate from the studio's film-production work.
+
+---
+
+## About This Repository
+
+This repository contains the source code and website assets for the **official Jagnaam Pictures website**.
+
+**Technology**
 
 - HTML
 - CSS
 - JavaScript
 - GitHub Pages
 
-The website serves as the studio's official online presence and may evolve as the studio's projects and digital infrastructure grow.
+The repository supports the studio's online presence and may evolve as its website and digital infrastructure develop.
 
 ---
 
-Repository
+## Copyright & Intellectual Property
 
-This repository maintains the source code and website assets for the official Jagnaam Pictures website.
+**© Jagnaam Pictures. All rights reserved.**
 
-It is intended to support the studio's public identity, creative direction, and online presence.
+Unless otherwise stated, the original text, logos, visual identity, artwork, branding, and other original creative materials associated with Jagnaam Pictures are intended for the studio's use and are protected by applicable intellectual property laws.
 
----
+Making this repository publicly accessible does not, by itself, grant permission to reproduce, redistribute, or commercially use the studio's original branding or creative materials.
 
-Copyright & Intellectual Property
+Third-party fonts, libraries, tools, and other materials remain subject to their respective licences and terms.
 
-© Jagnaam Pictures. All rights reserved.
-
-Unless expressly stated otherwise, the original text, visual identity, logos, artwork, branding, and other original creative materials associated with Jagnaam Pictures are protected by applicable intellectual property laws.
-
-The public availability of this repository does not, by itself, grant permission to reproduce, redistribute, modify, or commercially use the studio's branding or original creative materials.
-
-Third-party libraries, fonts, tools, or other materials remain subject to their respective licences and terms.
-
-For permissions or enquiries concerning the studio's original materials, please contact Jagnaam Pictures through its official channels.
+For permissions or enquiries regarding Jagnaam Pictures' original materials, please contact the studio through its official channels.
 
 ---
 
-Closing Note
+## A Final Thought
 
-Jagnaam Pictures is built on the belief that the most meaningful parts of a story do not always end with the final frame.
+A story does not necessarily end when the screen goes dark.
 
-Some remain in memory. Some change with time. Some only become clear when we return to them.
+Something may remain in a place, a gesture, a memory, or a question that follows us beyond the film.
 
-We make films in pursuit of those moments.
+**That is the part of cinema we continue to explore.**
 
-JAGNAAM PICTURES
-Karnataka, India
+---
 
-What stays after the camera stops.
+**JAGNAAM PICTURES**  
+*Karnataka, India*
+
+**_What stays after the camera stops._**
