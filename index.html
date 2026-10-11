@@ -79,7 +79,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+Kannada:wght@400;600&display=swap" rel="stylesheet">
 
 <style>
   :root{
@@ -100,6 +100,7 @@
 
   *{box-sizing:border-box; margin:0; padding:0;}
   html{scroll-behavior:smooth;}
+  section[id]{scroll-margin-top:72px;}
   body{
     background:var(--void);
     color:var(--silver);
@@ -109,6 +110,7 @@
   }
   img{max-width:100%; display:block;}
   a{color:inherit; text-decoration:none;}
+  [lang="kn"]{font-family:'Noto Sans Kannada', var(--font-body), sans-serif;}
 
   ::selection{background:var(--blue); color:#fff;}
 
@@ -705,6 +707,7 @@
   .footer-links a:hover{color:var(--blue-glow);}
 
 </style>
+<noscript><style>.reveal{opacity:1; transform:none;}</style></noscript>
 </head>
 <body>
 
@@ -733,7 +736,7 @@
   <div class="hero-content">
     <img class="hero-emblem" src="assets/images/logo-en.png" alt="Jagnaam Pictures emblem">
     <h1 class="hero-title">Jagnaam Pictures</h1>
-    <p class="hero-sub">ಜಜ್ಞಾಂ ಪಿಕ್ಚರ್ಸ್</p>
+    <p class="hero-sub" lang="kn">ಜಜ್ಞಾಂ ಪಿಕ್ಚರ್ಸ್</p>
     <p class="hero-tagline">Rooted stories told with restraint. Written, produced, shot, and brought to screen under one creative vision.</p>
   </div>
   <div class="scroll-cue"></div>
@@ -774,7 +777,7 @@
     </div>
 
     <div class="keke-banner reveal">
-      <img src="assets/images/keke-dark-landscape.jpg" alt="KeKe — concept poster">
+      <img loading="lazy" decoding="async" src="assets/images/keke-dark-landscape.jpg" alt="KeKe — concept poster">
       <div class="keke-banner-caption">
         <div class="credit-block">
           <b>Jagnaam Pictures</b> presents <span class="sep">·</span> <b>Ajay Raj</b> in <span class="sep">·</span> <b>KeKe</b><br>
@@ -785,31 +788,31 @@
 
     <div class="poster-grid reveal">
       <div class="poster-item" data-full="assets/images/keke-portrait.jpg">
-        <img src="assets/images/keke-portrait.jpg" alt="KeKe poster — English">
+        <img loading="lazy" decoding="async" src="assets/images/keke-portrait.jpg" alt="KeKe poster — English">
       </div>
       <div class="poster-item" data-full="assets/images/keke-portrait-kn.jpg">
-        <img src="assets/images/keke-portrait-kn.jpg" alt="KeKe poster — Kannada">
-        <span class="lang-tag">ಕನ್ನಡ</span>
+        <img loading="lazy" decoding="async" src="assets/images/keke-portrait-kn.jpg" alt="KeKe poster — Kannada">
+        <span class="lang-tag" lang="kn">ಕನ್ನಡ</span>
       </div>
       <div class="poster-item" data-full="assets/images/keke-multiface.jpg">
-        <img src="assets/images/keke-multiface.jpg" alt="KeKe — multi-face poster">
+        <img loading="lazy" decoding="async" src="assets/images/keke-multiface.jpg" alt="KeKe — multi-face poster">
       </div>
       <div class="poster-item" data-full="assets/images/keke-collage.jpg">
-        <img src="assets/images/keke-collage.jpg" alt="KeKe — collage poster">
+        <img loading="lazy" decoding="async" src="assets/images/keke-collage.jpg" alt="KeKe — collage poster">
       </div>
       <div class="poster-item" data-full="assets/images/keke-collage-kn.jpg">
-        <img src="assets/images/keke-collage-kn.jpg" alt="KeKe — collage poster, Kannada">
-        <span class="lang-tag">ಕನ್ನಡ</span>
+        <img loading="lazy" decoding="async" src="assets/images/keke-collage-kn.jpg" alt="KeKe — collage poster, Kannada">
+        <span class="lang-tag" lang="kn">ಕನ್ನಡ</span>
       </div>
       <div class="poster-item" data-full="assets/images/keke-multiface-kn.jpg">
-        <img src="assets/images/keke-multiface-kn.jpg" alt="KeKe — multi-face poster, Kannada">
-        <span class="lang-tag">ಕನ್ನಡ</span>
+        <img loading="lazy" decoding="async" src="assets/images/keke-multiface-kn.jpg" alt="KeKe — multi-face poster, Kannada">
+        <span class="lang-tag" lang="kn">ಕನ್ನಡ</span>
       </div>
       <div class="poster-item" data-full="assets/images/keke-dark-portrait.jpg">
-        <img src="assets/images/keke-dark-portrait.jpg" alt="KeKe — dark character poster">
+        <img loading="lazy" decoding="async" src="assets/images/keke-dark-portrait.jpg" alt="KeKe — dark character poster">
       </div>
       <div class="poster-item" data-full="assets/images/logo-en.png">
-        <img src="assets/images/logo-en.png" alt="Jagnaam Pictures emblem" style="object-fit:contain; padding:30px; background:var(--panel);">
+        <img loading="lazy" decoding="async" src="assets/images/logo-en.png" alt="Jagnaam Pictures emblem" style="object-fit:contain; padding:30px; background:var(--panel);">
       </div>
     </div>
 
@@ -832,7 +835,7 @@
 <section id="comingup">
   <div class="wrap comingup-inner">
     <span class="eyebrow">Coming Up</span>
-    <h2 class="comingup-kn">ಆ ಮೂರು ವರ್ಷಗಳು</h2>
+    <h2 class="comingup-kn" lang="kn">ಆ ಮೂರು ವರ್ಷಗಳು</h2>
     <p class="comingup-en">Those Three Years <span style="color:var(--silver-dim); font-weight:400;">(Working Title)</span></p>
     <div class="comingup-tags">
       <div class="comingup-status"><span class="dot"></span> In Pre-Production</div>
@@ -850,7 +853,7 @@
       <h2 class="section-title">2025 Reel</h2>
     </div>
     <div class="showreel-frame reveal" id="showreelFrame">
-      <img class="poster" src="assets/images/keke-dark-portrait.jpg" alt="">
+      <img loading="lazy" decoding="async" class="poster" src="assets/images/keke-dark-portrait.jpg" alt="">
       <video id="showreelVideo" controls playsinline preload="metadata" poster="assets/images/keke-dark-portrait.jpg">
         <source src="assets/video/showreel.mp4" type="video/mp4">
       </video>
@@ -869,9 +872,9 @@
 <section id="kathana">
   <div class="wrap kathana-inner reveal">
     <span class="eyebrow">Beyond Filmmaking</span>
-    <h2 class="kathana-name">Kathana · ಕಥನ</h2>
+    <h2 class="kathana-name">Kathana · <span lang="kn">ಕಥನ</span></h2>
     <p class="kathana-tag">Where Stories Find Their Form</p>
-    <p class="kathana-desc">Kathana is a screenwriting application by Manju S Padmanabh, published by Jagnaam Pictures. It is an independent, local-first writing environment for English and ten Indian scripts, built so that your screenplay stays on your own computer.</p>
+    <p class="kathana-desc">Kathana is a screenwriting application by Manju S Padmanabh, published by Jagnaam Pictures. It is an independent, local-first writing environment for English and Indian languages, built so that your screenplay stays on your own computer.</p>
     <div class="kathana-chips">
       <span class="chip">Desktop · macOS, Windows, Linux</span>
       <span class="chip">Beta v0.1.0</span>
@@ -888,7 +891,7 @@
 <!-- ============ CONTACT ============ -->
 <section id="contact">
   <div class="wrap contact reveal">
-    <img class="contact-emblem" src="assets/images/logo-en.png" alt="">
+    <img loading="lazy" decoding="async" class="contact-emblem" src="assets/images/logo-en.png" alt="">
     <span class="eyebrow">Get in touch</span>
     <a class="contact-email" href="mailto:jagnaampictures@gmail.com">jagnaampictures@gmail.com</a>
     <p class="contact-note">For collaborations, screenings, and story submissions — write in, not call.</p>
@@ -901,7 +904,7 @@
     </div>
     <a href="https://www.instagram.com/jagnaampictures" target="_blank" rel="noopener">
       <div class="contact-qr">
-        <img src="assets/images/instagram-qr.png" alt="Jagnaam Pictures Instagram QR code">
+        <img loading="lazy" decoding="async" src="assets/images/instagram-qr.png" alt="Jagnaam Pictures Instagram QR code">
       </div>
     </a>
     <p class="contact-qr-label">Scan to follow</p>
