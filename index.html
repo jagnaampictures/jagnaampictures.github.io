@@ -34,10 +34,46 @@
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "Jagnaam Pictures",
-  "alternateName": "Jagnaam Pictures Production House",
-  "url": "https://jagnaampictures.github.io/"
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://jagnaampictures.github.io/#organization",
+      "name": "Jagnaam Pictures",
+      "alternateName": "Jagnaam Pictures Production House",
+      "url": "https://jagnaampictures.github.io/",
+      "logo": "https://jagnaampictures.github.io/jagnaam-favicon.png",
+      "description": "Independent film production studio rooted in Karnataka, India.",
+      "email": "jagnaampictures@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Bengaluru",
+        "addressRegion": "Karnataka",
+        "addressCountry": "IN"
+      },
+      "founder": { "@type": "Person", "name": "Manju S Padmanabh" },
+      "sameAs": [
+        "https://www.instagram.com/jagnaampictures",
+        "https://www.youtube.com/@JagnaamPictures",
+        "https://github.com/jagnaampictures"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://jagnaampictures.github.io/#website",
+      "name": "Jagnaam Pictures",
+      "url": "https://jagnaampictures.github.io/",
+      "publisher": { "@id": "https://jagnaampictures.github.io/#organization" }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Kathana",
+      "alternateName": "ಕಥನ",
+      "url": "https://jagnaampictures.github.io/kathana-website/",
+      "applicationCategory": "MultimediaApplication",
+      "operatingSystem": "macOS, Windows, Linux",
+      "publisher": { "@id": "https://jagnaampictures.github.io/#organization" }
+    }
+  ]
 }
   </script>
 
@@ -517,7 +553,7 @@
     margin-left:auto; margin-right:auto;
   }
   .social-links{
-    display:flex; justify-content:center; gap:14px;
+    display:flex; flex-wrap:wrap; justify-content:center; gap:14px;
     margin-top:30px;
   }
   .social-link{
@@ -594,6 +630,80 @@
     cursor:pointer;
     text-transform:uppercase;
   }
+
+  /* ---------- Kathana ---------- */
+  #kathana{
+    background:var(--panel);
+    border-top:1px solid var(--line);
+    border-bottom:1px solid var(--line);
+  }
+  .kathana-inner{max-width:760px; margin:0 auto; text-align:center;}
+  .kathana-name{
+    font-family:var(--font-display);
+    font-size:clamp(34px, 6vw, 58px);
+    font-weight:400;
+    color:#f2f1ee;
+    letter-spacing:0.02em;
+    margin-top:16px;
+  }
+  .kathana-tag{
+    font-family:var(--font-mono);
+    font-size:12px;
+    letter-spacing:0.26em;
+    text-transform:uppercase;
+    color:var(--silver-dim);
+    margin-top:12px;
+  }
+  .kathana-desc{
+    margin-top:26px;
+    font-size:15.5px;
+    line-height:1.8;
+    color:var(--silver-dim);
+  }
+  .kathana-chips{
+    display:flex; flex-wrap:wrap; justify-content:center; gap:10px;
+    margin-top:26px;
+  }
+  .kathana-actions{
+    display:flex; flex-wrap:wrap; justify-content:center; gap:14px;
+    margin-top:34px;
+  }
+  .kathana-btn{
+    font-family:var(--font-mono);
+    font-size:12px;
+    letter-spacing:0.1em;
+    text-transform:uppercase;
+    color:var(--silver);
+    border:1px solid var(--line);
+    padding:12px 22px;
+    border-radius:2px;
+    transition:border-color 0.25s ease, color 0.25s ease, background 0.25s ease;
+  }
+  .kathana-btn.primary{border-color:rgba(62,95,217,0.6); color:#f2f1ee;}
+  .kathana-btn:hover{border-color:var(--blue-glow); color:var(--blue-glow);}
+  .kathana-note{
+    margin-top:24px;
+    font-family:var(--font-mono);
+    font-size:11px;
+    letter-spacing:0.06em;
+    color:var(--silver-dim);
+  }
+
+  /* ---------- Footer links ---------- */
+  .footer-links{
+    display:flex; flex-wrap:wrap; justify-content:center; gap:10px 26px;
+    margin-bottom:18px;
+  }
+  .footer-links a{
+    font-family:var(--font-mono);
+    font-size:11px;
+    letter-spacing:0.1em;
+    text-transform:uppercase;
+    color:var(--silver-dim);
+    transition:color 0.25s ease;
+  }
+  .footer-links a:hover{color:var(--blue-glow);}
+
 </style>
 </head>
 <body>
@@ -609,6 +719,7 @@
       <li><a href="#titles">Titles</a></li>
       <li><a href="#comingup">Coming Up</a></li>
       <li><a href="#showreel">Showreel</a></li>
+      <li><a href="#kathana">Kathana</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
@@ -754,6 +865,26 @@
   </div>
 </section>
 
+<!-- ============ KATHANA ============ -->
+<section id="kathana">
+  <div class="wrap kathana-inner reveal">
+    <span class="eyebrow">Beyond Filmmaking</span>
+    <h2 class="kathana-name">Kathana · ಕಥನ</h2>
+    <p class="kathana-tag">Where Stories Find Their Form</p>
+    <p class="kathana-desc">Kathana is a screenwriting application by Manju S Padmanabh, published by Jagnaam Pictures. It is an independent, local-first writing environment for English and ten Indian scripts, built so that your screenplay stays on your own computer.</p>
+    <div class="kathana-chips">
+      <span class="chip">Desktop · macOS, Windows, Linux</span>
+      <span class="chip">Beta v0.1.0</span>
+      <span class="chip">Local-first</span>
+    </div>
+    <div class="kathana-actions">
+      <a class="kathana-btn primary" href="https://jagnaampictures.github.io/kathana-website/">Explore Kathana</a>
+      <a class="kathana-btn" href="https://github.com/jagnaampictures/kathana/releases/tag/v0.1.0" target="_blank" rel="noopener">Download from GitHub</a>
+    </div>
+    <p class="kathana-note">Kathana is a separate software product with its own website and documentation.</p>
+  </div>
+</section>
+
 <!-- ============ CONTACT ============ -->
 <section id="contact">
   <div class="wrap contact reveal">
@@ -763,7 +894,10 @@
     <p class="contact-note">For collaborations, screenings, and story submissions — write in, not call.</p>
     <div class="social-links">
       <a class="social-link" href="https://www.instagram.com/jagnaampictures" target="_blank" rel="noopener">Instagram</a>
-      <a class="social-link" href="https://www.youtube.com/channel/UC2jKj4Jv2Bd1ffEBlz-RT9w" target="_blank" rel="noopener">YouTube</a>
+      <a class="social-link" href="https://www.youtube.com/@JagnaamPictures" target="_blank" rel="noopener">YouTube</a>
+      <a class="social-link" href="https://github.com/jagnaampictures" target="_blank" rel="noopener">GitHub</a>
+      <!-- LinkedIn: add here once the company page exists
+      <a class="social-link" href="https://www.linkedin.com/company/YOUR-PAGE" target="_blank" rel="noopener">LinkedIn</a> -->
     </div>
     <a href="https://www.instagram.com/jagnaampictures" target="_blank" rel="noopener">
       <div class="contact-qr">
@@ -775,7 +909,14 @@
 </section>
 
 <footer>
-  <p>&copy; <span id="year"></span> Jagnaam Pictures — All rights reserved</p>
+  <div class="footer-links">
+    <a href="https://www.instagram.com/jagnaampictures" target="_blank" rel="noopener">Instagram</a>
+    <a href="https://www.youtube.com/@JagnaamPictures" target="_blank" rel="noopener">YouTube</a>
+    <a href="https://github.com/jagnaampictures" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://jagnaampictures.github.io/kathana-website/">Kathana</a>
+    <a href="mailto:jagnaampictures@gmail.com">Email</a>
+  </div>
+  <p>&copy; <span id="year"></span> Jagnaam Pictures — A Manju S Padmanabh work. All rights reserved.</p>
 </footer>
 
 <div class="lightbox" id="lightbox">
