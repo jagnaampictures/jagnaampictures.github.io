@@ -3,7 +3,7 @@
 
 ### Independent Film Production Studio · Karnataka, India
 
-**_What stays after the camera stops._**
+**_Rooted stories, told with restraint._**
 
 ---
 
